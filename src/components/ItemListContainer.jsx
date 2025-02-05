@@ -1,8 +1,8 @@
-/* 
+import { Works } from "../pages/Works"
 
-
-const ItemListContainer = () => {
+function ItemListContainer () {
+    
     return(
-        
+        < Works />
     )
-} */
+}
