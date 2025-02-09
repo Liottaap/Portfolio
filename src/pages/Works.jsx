@@ -1,6 +1,6 @@
 
 
-export const Works = () => {
+function Works () {
     return(
         <section className=" w-full min-h-min flex flex-col gap-10 items-start justify-center p-20">
             <h1 className="text-8xl">WORKS</h1>
@@ -16,3 +16,5 @@ export const Works = () => {
 
     )
 }
+
+export default Works
