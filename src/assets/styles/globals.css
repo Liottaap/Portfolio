@@ -1,27 +1,11 @@
-@keyframes borderAnimation {
-    0% {
-      border-image-source: linear-gradient(90deg, #3b82f6, #9333ea, #ec4899);
-      box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
-    }
-    50% {
-      border-image-source: linear-gradient(90deg, #ec4899, #9333ea, #3b82f6);
-      box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
-    }
-    100% {
-      border-image-source: linear-gradient(90deg, #3b82f6, #9333ea, #ec4899);
-      box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
-    }
-  }
-  
-  .animate-border {
-    border-width: 4px;
-    border-style: solid;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, #3b82f6, #9333ea, #ec4899);
-    animation: borderAnimation 3s ease-in-out infinite;
-  }
 
-
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+/* Animación para el brillo del título en el HEEADER */
 @keyframes letterShine {
     0% {
       background-position: 100% 50%;
@@ -47,3 +31,51 @@
     color: transparent;
     animation: letterShine 5s ease-in-out infinite;
   }
+
+  @keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+
+/* Logo animacion */
+
+.animate-logo {
+  background: linear-gradient(90deg, #3b82f6, #9333ea, #ec4899);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: letterShine 5s ease-in-out infinite;
+}
+
+
+.snap-container {
+  height: 100vh;
+  overflow: auto;  
+  scroll-snap-type: y mandatory;  
+}
+
+.snap-section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+}

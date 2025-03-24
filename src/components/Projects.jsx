@@ -44,7 +44,7 @@ function Projects() {
                         <img src={element.imagen} alt="pagina de ejemplo" className="h-full w-full bg-white rounded-t-xl"/>
                         <div className="flex flex-col h-2/6 gap-2 align-center justify-center">
                             <h2 className="font-bold text-2xl text-whitesmoke m-4 ">{element.nombre}</h2>
-                            <ul className=" flex w-full  -mb-3  flex gap-3 justify-center items-center text-center">
+                            <ul className=" flex w-full  -mb-3  gap-3 justify-center items-center text-center">
                                 <li className=" w-auto rounded-lg p-1 border-2 border-white text-whitesmoke text-sm">React.Js</li>
                                 <li className=" w-auto rounded-lg p-1 border-2 border-white text-whitesmoke text-sm">Tailwind</li>
                             </ul>

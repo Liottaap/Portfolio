@@ -4,7 +4,7 @@ function ProyectsContainer() {
     
 
     return(
-        <main className=" ">
+        <main className=" mt-5">
             <Projects isPink={true}/>
         </main>
     )

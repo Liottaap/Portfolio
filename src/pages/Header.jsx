@@ -1,28 +1,46 @@
-import { Link } from 'react-router-dom';
+
 import '../assets/styles/globals.css'
 import ButtonsContainer from '../components/ButtonsContainer';
-/* import LogoLA from '../assets/LogoPorfolio.png' */
+import LogoImage from "../assets/ladev_2.png"; // Importa tu logo
+import { useAnimatedTitle } from '../components/animatedHook';
+import'../assets/styles/globals.css'
+
 function Header() {
+    const animatedTitle = useAnimatedTitle(
+        `Liotta Ana || Frontend Developer `, 150);
+
 
     return(
-        <header className="flex flex-col items-center gap-5 min-h-screen p-8 bg-slate-950">
-            <ButtonsContainer/>
-            <h1 className="text-8xl text-center pb-10 font-extrabold   bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-            {Array.from("FRONTEND DEVELOPER").map((letter, index) => (
-                <span key={index} className="animate-glow" style={{ animationDelay: `${index * 0.1}s`}}>
-                {letter}
-                </span>
-            ))}
-            </h1>
-            <nav className="w-10/12 h-mvh relative flex items-center  p-4  text-white border-transparent bg-clip-border">
+            <header id='header' className=" snap-section items-center gap-5 p-20 pt-5 bg-whitesmoke 
+                flex flex-col items-center justify-evenly">
 
-{/*                 <img src={LogoLA} alt="-" className='w-80'/> */}
-                <div className="flex flex-col w-full items-end justify-end gap-10 text-8xl  pr-10">
-                    <Link to="/about" className=" inline-block text-purple-400 cursor-pointer hover:scale-125  transition-all duration-500">ABOUT</Link>
-                    <Link to="/works" className=" inline-block text-purple-400 cursor-pointer hover:scale-125 hover:-translate-x-44 transition-all duration-500">WORKS</Link>
-                    <Link to="/contact" className=" inline-block w-92 text-purple-400 cursor-pointer hover:scale-125 hover:-translate-x-44 transition-all duration-500">CONTACT</Link>
+                {/* Botones */}
+                <div className='w-full w-42 p-2 bg-gradient-to-r rounded-full from-blue-500 via-purple-500 to-pink-500  flex items-center justify-between pr-10'>
+                    <div className='flex w-auto items-center w-2/4'>
+                        <a href="./Header.jsx" className='min-w-max' style={{
+                            backgroundImage: `url(${LogoImage})`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            width: '100px',
+                            height: '100px'
+
+                        }}></a>
+
+                        <h1 className='text-4xl pl-5 w-max'>{animatedTitle}</h1>
+                    </div>
+
+                    <ButtonsContainer/>
                 </div>
-            </nav>
+
+                <nav  className="flex flex-col w-full items-end justify-end gap-10 text-9xl  pr-10">
+                    {/*<img src={LogoLA} alt="-" className='w-80'/> */}
+                    <a  className=" inline-block text-purple-400 cursor-pointer hover:scale-125  transition-all duration-500" href="#about">About</a>
+                    <a  className=" inline-block text-purple-400 cursor-pointer hover:scale-125  transition-all duration-500" href="#works">Works</a>
+                    <a  className=" inline-block text-purple-400 cursor-pointer hover:scale-125  transition-all duration-500" href="#contact">Contact</a>
+                </nav>
+            {/* NAV DEL HEADER */}
+            
         </header>
     )
 }
