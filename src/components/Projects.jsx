@@ -1,60 +1,36 @@
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css'; // 📌 Asegurar que Bootstrap CSS está importado
+import project1 from "../assets/projects/nostalgicTasks.png";
+import project2 from "../assets/projects/mascotitas.png";
+import project3 from "../assets/projects/oroVerde.png";
+import'.././globals.css'
 
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Ejemplo from '../assets/imagenEjemplo.jpg'
-import { useEffect } from 'react';
 
 function Projects() {
     const projectsArray = [
-        {
-            imagen: Ejemplo,
-            nombre: "Proyecto1"
-        },
-        {
-            imagen: Ejemplo,
-            nombre: "Proyecto2"
-        },
-        {
-            imagen: Ejemplo,
-            nombre: "Proyecto3"
-        },
-        {
-            imagen: Ejemplo,
-            nombre: "Proyecto4"
-        },
-        {
-            imagen: Ejemplo,
-            nombre: "Proyecto5"
-        },
-        {
-            imagen: Ejemplo,
-            nombre: "Proyecto6"
-        }
-    ];
-    const isPink = (index) => index % 2 !== 0;
+        { img: project1, name: "Nostalgic Tasks", desc: "Una colorida página web con estilo Lo-fi donde podrás estudiar, anotar tus quehaceres o tareas, y escuchar relajando música en el proceso" },
+        { img: project2, name: "Patitas Contentas", desc: "Una colorida landing page diseñada para la adopción y tránsito de mascotas sin hogar." },
+        { img: project3, name: "Oro Verde", desc: "Destinada a tienda la comercialización de productos comestibles regionales, incluyendo carrito" },
 
+    ];
 
     return (
-        <Row xs={1} sm={2} md={4} className="g-5 m-2">
-            {projectsArray.map((element, idx) => (
-                <Col key={idx}>
-                    <article className={`cursor-pointer flex flex-col h-full rounded-xl items-center 
-                        hover:scale-105 hover transition-transform duration-300
-                        ${isPink(idx) ? 'bg-fuchsia-500' : 'bg-indigo-500'} `}>
-                        <img src={element.imagen} alt="pagina de ejemplo" className="h-full w-full bg-white rounded-t-xl"/>
-                        <div className="flex flex-col h-2/6 gap-2 align-center justify-center">
-                            <h2 className="font-bold text-2xl text-whitesmoke m-4 ">{element.nombre}</h2>
-                            <ul className=" flex w-full  -mb-3  gap-3 justify-center items-center text-center">
-                                <li className=" w-auto rounded-lg p-1 border-2 border-white text-whitesmoke text-sm">React.Js</li>
-                                <li className=" w-auto rounded-lg p-1 border-2 border-white text-whitesmoke text-sm">Tailwind</li>
-                            </ul>
-                        </div>
-                    </article>
-                </Col>
-            ))}
-        </Row>
+        <div className="w-full flex flex-col justify-center items-center">
+            <Carousel className="w-full shadow-lg shadow-black p-2" interval={3000} pause="hover" fade>
+                {projectsArray.map((element, idx) => (
+                    <Carousel.Item key={idx} className="w-full h-full flex justify-center items-center">
+                        <a href="#" className="w-full h-full flex justify-center">
+                            <img src={element.img} alt={element.name} className="h-[50vh] object-cover rounded-xl" />
+                        </a>
+                        <Carousel.Caption className="w-full absolute bottom-2 left-0 bg-black/40 flex flex-col justify-center items-center text-white p-4 ">
+                            <h3 className="text-3xl">{element.name}</h3>
+                            <p>{element.desc}</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                ))}
+            </Carousel>
+        </div>
     );
 }
-
 
 export default Projects;

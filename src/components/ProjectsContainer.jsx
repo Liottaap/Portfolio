@@ -1,12 +1,13 @@
 import Projects from './Projects'
+import'.././globals.css'
 
 function ProyectsContainer() {
     
-
     return(
-        <main className=" mt-5">
+        <div className="flex justify-center items-center p-2 
+        md:w-4/5">
             <Projects isPink={true}/>
-        </main>
+        </div>
     )
 }
 export default ProyectsContainer

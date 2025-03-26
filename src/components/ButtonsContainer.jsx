@@ -1,4 +1,6 @@
 import RedesButton from "./RedesButton"
+import'.././globals.css'
+
 
 function ButtonsContainer({isWhite}){
 
