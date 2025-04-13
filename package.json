@@ -2,7 +2,7 @@
   "name": "portfolio2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://TU_USUARIO.github.io/portfolio2",
+  "homepage": "https://liottaap.github.io/Portfolio/",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.48",
     "bootstrap": "^5.3.3",
