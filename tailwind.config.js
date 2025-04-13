@@ -7,8 +7,9 @@ module.exports = {
     extend: {
       colors: {
         whitebg: "#eee",
-        blackbg: "#4d505e",
-        whiteletter: "#d4c3e4",
+        blackbg: "#020617",
+        darkLetter: "#4d505e",
+        whiteLetter: "#d4c3e4",
       },
       backgroundColor: {
         mainBg: "#020617",

@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* tailwind.css o donde tengas tus utilidades personalizadas */
+@layer utilities {
+  /* Versión "delgada" para la parte izquierda (Frontend) */
+  .clip-left-thin {
+    clip-path: polygon(0 0, 0 100%, 95% 100%, 100% 0);
+    z-index: 10;
+  }
+  
+  /* Versión "delgada" para la parte derecha (Designer) */
+  .clip-right-thin {
+    clip-path: polygon(0 100%, 5% 0, 100% 0, 100% 100%);
+    z-index: 20;
+  }
+}

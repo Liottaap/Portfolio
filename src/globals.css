@@ -30,13 +30,15 @@ h2{
   padding: 12px;
   font-size: 3.75rem;
 }
-
+.section{
+  height: 100%;
+}
 
 .header-text{
   font-family: "Boldonse", system-ui;
   font-size: 5.6rem;
 }
-.snap-container {
+/* .snap-container {
   height: 100vh;
   overflow: auto;  
   scroll-snap-type: y mandatory;  
@@ -46,7 +48,7 @@ h2{
 .snap-section {
   scroll-snap-align: start;
   min-height: 100vh;
-}
+} */
 /* .animate-glow {
   background: linear-gradient(90deg, #3b82f6, #9333ea, #ec4899);
   background-size: 200% 200%;
@@ -93,20 +95,15 @@ h2{
 }
 
 
-/* Animación para el brillo del título en el HEEADER */
-/* @keyframes letterShine {
-  0% {
-    background-position: 100% 50%;
-    opacity: 0.5;
-    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
-  }
-  50% {
-    opacity: 1;
-    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
-  }
-  100% {
-    background-position: 0% 50%;
-    opacity: 1;
-    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
-  }
-} */
+.clip-left {
+  clip-path: polygon(0 0, 0 100%, 100% 40%);
+}
+.clip-right {
+  clip-path: polygon(100% 100%, 100% 0, 0 60%);
+}
+
+.section{
+  width: 100%;
+}
+
+

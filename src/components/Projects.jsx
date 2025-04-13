@@ -1,31 +1,49 @@
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css'; // 📌 Asegurar que Bootstrap CSS está importado
-import project1 from "../assets/projects/nostalgicTasks.png";
-import project2 from "../assets/projects/mascotitas.png";
-import project3 from "../assets/projects/oroVerde.png";
+import { Link } from 'react-router-dom';
 import'.././globals.css'
+import './projectsArray'
 
-
-function Projects() {
-    const projectsArray = [
-        { img: project1, name: "Nostalgic Tasks", desc: "Una colorida página web con estilo Lo-fi donde podrás estudiar, anotar tus quehaceres o tareas, y escuchar relajando música en el proceso" },
-        { img: project2, name: "Patitas Contentas", desc: "Una colorida landing page diseñada para la adopción y tránsito de mascotas sin hogar." },
-        { img: project3, name: "Oro Verde", desc: "Destinada a tienda la comercialización de productos comestibles regionales, incluyendo carrito" },
-
-    ];
-
+function Projects({ projects }) {
     return (
-        <div className="w-full flex flex-col justify-center items-center">
-            <Carousel className="w-full shadow-lg shadow-black p-2" interval={3000} pause="hover" fade>
-                {projectsArray.map((element, idx) => (
-                    <Carousel.Item key={idx} className="w-full h-full flex justify-center items-center">
-                        <a href="#" className="w-full h-full flex justify-center">
-                            <img src={element.img} alt={element.name} className="h-[50vh] object-cover rounded-xl" />
-                        </a>
-                        <Carousel.Caption className="w-full absolute bottom-2 left-0 bg-black/40 flex flex-col justify-center items-center text-white p-4 ">
-                            <h3 className="text-3xl">{element.name}</h3>
-                            <p>{element.desc}</p>
-                        </Carousel.Caption>
+        <div className="w-full flex flex-col justify-center items-center
+        lg:w-[80%]">
+            <Carousel className=" shadow-lg shadow-black p-2" interval={3000} pause="hover" fade>
+                {projects.map((project, idx) => (
+                    <Carousel.Item 
+                        key={idx} 
+                        className="w-full h-max flex justify-center items-center bg-white rounded-xl overflow-hidden"
+                    >
+                        {/* Este div controla la distribución */}
+                        <div className="w-full h-full flex flex-col md:flex-row h-700px md:h-[500px]">
+                            
+                            {/* Imagen (70%) */}
+                            <figure className="w-full md:w-[70%] h-[70%] md:h-full">
+                                <Link to={`/works/${project.id}`} className="block w-full h-full">
+                                    <img 
+                                        src={project.img} 
+                                        alt={project.name} 
+                                        className="w-full h-full object-cover"
+                                    />
+                                </Link>
+                            </figure>
+
+                            {/* Texto (30%) */}
+                            <article className="w-full md:w-[30%] h-[30%] md:h-full bg-black text-white flex flex-col justify-between items-start p-6 gap-4">
+                                
+                                <div className='flex flex-col gap-10 md:mt-20'>
+                                    <h3 className="text-xl md:text-2xl font-bold">{project.name}</h3>
+                                    <p className="text-sm">{project.desc}</p>
+                                </div>
+                                <div className=' w-full h-50px flex justify-start gap-2 items-start'>
+                                    <a href={project.gitHub}  target='_blank' >Github</a>
+                                    <a href={project.link}  target='_blank' >Site</a>
+                                </div>
+                                    
+                                
+                            </article>
+
+                        </div>
                     </Carousel.Item>
                 ))}
             </Carousel>

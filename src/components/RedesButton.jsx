@@ -15,9 +15,10 @@ function RedesButton ({isWhite}) {
      const whatssapIcon = isWhite ? whiteWhatsapp : whatsapp;
      /* No las estoy usando pero las dejo por las dudas, si cambio color de fondo */
     return(
-        <div className="flex gap-4 items-center justify-center w-auto h-auto
+        <div className="flex gap-4  items-center justify-center w-auto h-auto
+        md:pr-4
         ">
-            <button className="h-10 w-10
+            <a href="https://www.linkedin.com/in/ana-liotta/" className="h-10 w-10
             lg:h-12 lg:w-12"
                 style={{
                     backgroundImage: `url(${linkedinIcon})`,
@@ -26,8 +27,8 @@ function RedesButton ({isWhite}) {
                     backgroundRepeat: "no-repeat",
 
                 }}>
-            </button>
-            <button className="h-10 w-10
+            </a>
+            <a href="https://github.com/Liottaap" className="h-10 w-10
             lg:h-12 lg:w-12"
                 style={{
                     backgroundImage: `url(${githubIcon})`,
@@ -35,8 +36,8 @@ function RedesButton ({isWhite}) {
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                 }}>
-            </button>
-            <button className="h-10 w-10
+            </a>
+            <a href="" className="h-10 w-10
             lg:h-12 lg:w-12"
                 style={{
                     backgroundImage: `url(${whatssapIcon})`,
@@ -44,7 +45,7 @@ function RedesButton ({isWhite}) {
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                 }}>
-            </button>
+            </a>
         </div>
     )
 }

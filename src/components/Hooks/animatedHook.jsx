@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 
 function useAnimatedTitle(title, speed = 100){
@@ -69,3 +69,37 @@ function useCrosswordAnimation(speed = 100, delayBeforeFade = 2000) {
 }
 
 export { useCrosswordAnimation };
+
+/* Funcion para scroll de pagina */
+
+function RevealOnScroll({ children, delay = 0 }) {
+  const ref = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setTimeout(() => setIsVisible(entry.isIntersecting), delay);
+      },
+      { threshold: 0.2 }
+    );
+
+    if (ref.current) observer.observe(ref.current);
+
+    return () => {
+      if (ref.current) observer.unobserve(ref.current);
+    };
+  }, [delay]);
+
+  return (
+    <div
+      ref={ref}
+      className={`transition-all duration-700 ease-in-out transform 
+        ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+    >
+      {children}
+    </div>
+  );
+}
+
+export {RevealOnScroll};
