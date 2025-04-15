@@ -20,12 +20,13 @@ function AboutHello(){
                     <h2 className='text-whitebg text-6xl text-center'>Hi! I'm Ana</h2>
                     <div  className='text-whitebg text-2xl text-center lg:pl-20 lg:pr-20 flex gap-10 flex-col
                     md:text-right'>
-                        <p>
-                            Desarrolladora frontend apasionada por la creación de experiencias digitales atractivas y funcionales. Mi enfoque se centra en combinar la creatividad y código limpio, accesible y optimizado para ofrecer interfaces intuitivas y eficientes, como así también una experiencia agradable para el consumidor.
-                        </p>
-                        <p>
-                            En este portafolio encontrarás una muestra de mis proyectos <span className='inline-block'>¡Gracias por visitar mi trabajo y no dudes en contactarme para colaborar juntos!</span>
-                        </p>
+                <p>
+                    Frontend developer passionate about creating engaging and functional digital experiences. My focus is on combining creativity with clean, accessible, and optimized code to deliver intuitive and efficient interfaces, as well as a pleasant user experience.
+                </p>
+                <p>
+                    In this portfolio, you’ll find a sample of my projects <span className='inline-block'>Thank you for visiting my work, and feel free to contact me to collaborate!</span>
+                </p>
+
                     </div>
 
                 </div>
