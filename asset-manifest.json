@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c8a0963d.css",
-    "main.js": "/Portfolio/static/js/main.04e0e93c.js",
+    "main.css": "/Portfolio/static/css/main.b9059abc.css",
+    "main.js": "/Portfolio/static/js/main.1bbffef1.js",
     "static/media/mascotitas.png": "/Portfolio/static/media/mascotitas.95c3405bdb96631c0f62.png",
     "static/media/nostalgicTasks.png": "/Portfolio/static/media/nostalgicTasks.207d2fe280902f825220.png",
     "static/media/oroVerde.png": "/Portfolio/static/media/oroVerde.1ea365f28af88e766cff.png",
     "static/media/ChopSuey.png": "/Portfolio/static/media/ChopSuey.c7e756da8aae9bf55b2e.png",
     "static/media/perfil.jpg": "/Portfolio/static/media/perfil.9c77ed672c896ba201e7.jpg",
     "static/media/logo_LADEV_Logo3.png": "/Portfolio/static/media/logo_LADEV_Logo3.de2437fa2ab4b907b73f.png",
-    "static/media/whatssap-icon.svg": "/Portfolio/static/media/whatssap-icon.de122eff1eaa128de6b8d61632463b59.svg",
     "static/media/linkedin-icon.svg": "/Portfolio/static/media/linkedin-icon.2303bad298d404ceae3e5d6bfcc27ff7.svg",
     "static/media/linkedin-icon-dark.svg": "/Portfolio/static/media/linkedin-icon-dark.6133a6728952752752f32a335ff029e7.svg",
     "static/media/github-icon.svg": "/Portfolio/static/media/github-icon.b812010647d8922e0e6412fd3fc7f38c.svg",
     "static/media/github-icon-dark.svg": "/Portfolio/static/media/github-icon-dark.c82c63f6cf914d8b027583f115979be6.svg",
-    "static/media/whatsapp_dark.svg": "/Portfolio/static/media/whatsapp_dark.385e1ed976ed1f91ff55c68f11e49765.svg",
     "index.html": "/Portfolio/index.html",
-    "main.c8a0963d.css.map": "/Portfolio/static/css/main.c8a0963d.css.map",
-    "main.04e0e93c.js.map": "/Portfolio/static/js/main.04e0e93c.js.map"
+    "main.b9059abc.css.map": "/Portfolio/static/css/main.b9059abc.css.map",
+    "main.1bbffef1.js.map": "/Portfolio/static/js/main.1bbffef1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8a0963d.css",
-    "static/js/main.04e0e93c.js"
+    "static/css/main.b9059abc.css",
+    "static/js/main.1bbffef1.js"
   ]
 }
