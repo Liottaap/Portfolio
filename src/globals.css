@@ -105,5 +105,9 @@ h2{
 .section{
   width: 100%;
 }
-
+.modal-open .carousel-control-prev,
+.modal-open .carousel-control-next,
+.modal-open .carousel-indicators {
+  display: none !important;
+}
 

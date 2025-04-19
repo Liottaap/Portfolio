@@ -6,7 +6,7 @@ import { projectsArray } from './projectsArray';
 function ProyectsContainer() {
 
     return(
-            <Projects isPink={true} projects={projectsArray}/>
+            <Projects projects={projectsArray}/>
 
     )
 }

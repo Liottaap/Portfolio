@@ -5,7 +5,6 @@ import {About} from './About'
 import {Works} from './Works'
 import {Contact} from './Contact'
 import { AboutSkills } from '../components/AboutSkills'
-import {HomeButton} from '../components/HomeButton'
 import ReactFullpage from '@fullpage/react-fullpage';
 import'.././globals.css'
 
@@ -22,7 +21,7 @@ function MainPage() {
           return (
             <ReactFullpage.Wrapper>
               <div className="section">
-                <HomeButton />
+
                 <RevealOnScroll>
                   <Header />
                 </RevealOnScroll>
