@@ -2,7 +2,7 @@ import project1 from "../assets/projects/nostalgicTasks.png";
 import project2 from "../assets/projects/mascotitas.png";
 import project3 from "../assets/projects/oroVerde.png";
 import project4 from "../assets/projects/ChopSuey.png"
-
+import project5 from '../assets/projects/batatabit.png'
 const projectsArray = [
     { 
         id: '1', 
@@ -41,6 +41,15 @@ const projectsArray = [
         tecs:"HTML, CSS, JavaScript",
         gitHub:'https://github.com/Liottaap/ChopSuey', 
         link: 'https://food-chopsuey.netlify.app/', 
+    },
+    { 
+        id: '5', 
+        img: project5, 
+        name: "Batatabit", 
+        desc: "An informational website about cryptocurrencies, built with HTML and CSS. In this project, I learned how to implement responsive design.",
+        tecs:"HTML, CSS",
+        gitHub:'https://github.com/Liottaap/Batabit', 
+        link: 'https://mybatatabit.netlify.app/', 
     },
 ];
 
