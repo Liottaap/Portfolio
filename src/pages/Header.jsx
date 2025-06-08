@@ -12,7 +12,7 @@ function Header() {
             {/* Botones */}
             <ButtonsContainer/>
             {/* Nav */}
-            <nav  className="flex flex-col w-full items-center md:items-end justify-end gap-10 pr-10">
+            <nav  className="flex flex-col w-full items-center md:items-end justify-end gap-10 md:pr-10">
                     <a href="#about" className="header-text inline-block  cursor-pointer hover:scale-125  transition-all duration-500 text-[#b6a5c7] text-4xl md:text-6xl lg:text-8xl
                         ">ABOUT</a>
                     <a href="#works" className="header-text inline-block cursor-pointer hover:scale-125  transition-all duration-500 text-[#b6a5c7] text-4xl md:text-6xl lg:text-8xl">WORKS</a>
