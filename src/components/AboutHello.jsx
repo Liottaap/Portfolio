@@ -20,16 +20,14 @@ function AboutHello(){
                     <h2 className='text-whitebg text-6xl text-center'>Hi! I'm Ana</h2>
                     <div  className='text-whitebg text-2xl text-center lg:pl-20 lg:pr-20 flex gap-10 flex-col
                     md:text-right'>
-                <p>
-                    Frontend developer passionate about creating engaging and functional digital experiences. My focus is on combining creativity with clean, accessible, and optimized code to deliver intuitive and efficient interfaces, as well as a pleasant user experience.
-                </p>
-                <p>
-                    In this portfolio, you’ll find a sample of my projects <span className='inline-block'>Thank you for visiting my work, and feel free to contact me to collaborate!</span>
-                </p>
-                <a className='underline'_blank href="https://drive.google.com/file/d/12AUP9cUDMIqf3XXoINEGuOmJHBHBvt_5/view?usp=sharing">CV</a>
-
+                        <p>
+                            Frontend developer passionate about creating engaging and functional digital experiences. My focus is on combining creativity with clean, accessible, and optimized code to deliver intuitive and efficient interfaces, as well as a pleasant user experience.
+                        </p>
+                        <p>
+                            In this portfolio, you’ll find a sample of my projects <span className='inline-block'>Thank you for visiting my work, and feel free to contact me to collaborate!</span>
+                        </p>
+                        <a className='underline'_blank href="https://drive.google.com/file/d/12AUP9cUDMIqf3XXoINEGuOmJHBHBvt_5/view?usp=sharing">CV</a>
                     </div>
-
             </div>
 
             </section>

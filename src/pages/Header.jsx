@@ -1,5 +1,5 @@
 
-
+import { Link } from 'react-scroll';
 import {ButtonsContainer} from '../components/MenuContainer';
 
 import '../globals.css'

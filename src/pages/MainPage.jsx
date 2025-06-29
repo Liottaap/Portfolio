@@ -7,7 +7,7 @@ import {Contact} from './Contact'
 import { AboutSkills } from '../components/AboutSkills'
 import ReactFullpage from '@fullpage/react-fullpage';
 import'.././globals.css'
-
+import { Link } from 'react-scroll'
 
 function MainPage() {
     return (
@@ -39,7 +39,7 @@ function MainPage() {
                 </RevealOnScroll>
               </div>
   
-              <div className="section">
+              <div className="section" >
                 <RevealOnScroll delay={300}>
                   <AboutSkills />
                 </RevealOnScroll>
