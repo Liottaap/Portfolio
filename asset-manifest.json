@@ -1,25 +1,40 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.296448d9.css",
-    "main.js": "/Portfolio/static/js/main.6cdc966f.js",
+    "main.css": "/Portfolio/static/css/main.42424973.css",
+    "main.js": "/Portfolio/static/js/main.104fa8cf.js",
+    "static/media/mockup.png": "/Portfolio/static/media/mockup.dd83ce1184c2e2d90f2b.png",
     "static/media/mascotitas.png": "/Portfolio/static/media/mascotitas.95c3405bdb96631c0f62.png",
+    "static/media/patitas-mascotas.png": "/Portfolio/static/media/patitas-mascotas.b9be3003ff0b5bb6e744.png",
+    "static/media/desktop.png": "/Portfolio/static/media/desktop.cc59183f80089ebc2ced.png",
+    "static/media/bebidas.png": "/Portfolio/static/media/bebidas.98cd45fad4d76afe83a0.png",
+    "static/media/mesas-reservadas.png": "/Portfolio/static/media/mesas-reservadas.08f6d2dd4acb3ad09707.png",
+    "static/media/mesas.png": "/Portfolio/static/media/mesas.82cddc0070408401e5b0.png",
+    "static/media/patitas-desktop.png": "/Portfolio/static/media/patitas-desktop.215b52ce224348995e00.png",
     "static/media/nostalgicTasks.png": "/Portfolio/static/media/nostalgicTasks.207d2fe280902f825220.png",
     "static/media/oroVerde.png": "/Portfolio/static/media/oroVerde.1ea365f28af88e766cff.png",
+    "static/media/patitas-banner.png": "/Portfolio/static/media/patitas-banner.b58f86041dfd69aeeffe.png",
     "static/media/platzitravel.png": "/Portfolio/static/media/platzitravel.1fbf088b73efbbe77415.png",
     "static/media/ChopSuey.png": "/Portfolio/static/media/ChopSuey.c7e756da8aae9bf55b2e.png",
     "static/media/batatabit.png": "/Portfolio/static/media/batatabit.45041de15e9e6568fa72.png",
+    "static/media/patitas-tienda.png": "/Portfolio/static/media/patitas-tienda.fde7d927664e7acf0696.png",
+    "static/media/banner.png": "/Portfolio/static/media/banner.ce3edf328cee41e08955.png",
+    "static/media/patitas-contacto.png": "/Portfolio/static/media/patitas-contacto.3eff46c26f159bde6149.png",
     "static/media/perfil.jpg": "/Portfolio/static/media/perfil.9c77ed672c896ba201e7.jpg",
+    "static/media/patitas-requisitos.png": "/Portfolio/static/media/patitas-requisitos.900e5856f47bb6ffda4f.png",
+    "static/media/bootstrap-icons.woff?": "/Portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/patitas-donaciones.png": "/Portfolio/static/media/patitas-donaciones.e02693a69492117ffe21.png",
+    "static/media/bootstrap-icons.woff2?": "/Portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "static/media/logo_LADEV_Logo3.png": "/Portfolio/static/media/logo_LADEV_Logo3.de2437fa2ab4b907b73f.png",
     "static/media/linkedin-icon.svg": "/Portfolio/static/media/linkedin-icon.2303bad298d404ceae3e5d6bfcc27ff7.svg",
     "static/media/linkedin-icon-dark.svg": "/Portfolio/static/media/linkedin-icon-dark.6133a6728952752752f32a335ff029e7.svg",
     "static/media/github-icon.svg": "/Portfolio/static/media/github-icon.b812010647d8922e0e6412fd3fc7f38c.svg",
     "static/media/github-icon-dark.svg": "/Portfolio/static/media/github-icon-dark.c82c63f6cf914d8b027583f115979be6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.296448d9.css.map": "/Portfolio/static/css/main.296448d9.css.map",
-    "main.6cdc966f.js.map": "/Portfolio/static/js/main.6cdc966f.js.map"
+    "main.42424973.css.map": "/Portfolio/static/css/main.42424973.css.map",
+    "main.104fa8cf.js.map": "/Portfolio/static/js/main.104fa8cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.296448d9.css",
-    "static/js/main.6cdc966f.js"
+    "static/css/main.42424973.css",
+    "static/js/main.104fa8cf.js"
   ]
 }
