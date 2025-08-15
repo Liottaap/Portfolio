@@ -1,13 +1,11 @@
 
 import { RevealOnScroll } from '../components/hooks/animatedHook'
-import {Header} from './Header'
 import {About} from './About'
-import {Works} from './Works'
+// import {Works} from './DWPortfolio'
 import {Contact} from './Contact'
 import { AboutSkills } from '../components/AboutSkills'
 import ReactFullpage from '@fullpage/react-fullpage';
 import'.././globals.css'
-import { Link } from 'react-scroll'
 
 function MainPage() {
     return (
@@ -20,31 +18,31 @@ function MainPage() {
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
-              <div className="section">
+              {/* <div className="section">
 
                 <RevealOnScroll>
                   <Header />
                 </RevealOnScroll>
-              </div>
+              </div> */}
+
   
               <div className="section">
                 <RevealOnScroll delay={100}>
-                  <Works />
-                </RevealOnScroll>
-              </div>
-  
-              <div className="section">
-                <RevealOnScroll delay={200}>
                   <About />
                 </RevealOnScroll>
               </div>
   
               <div className="section" >
-                <RevealOnScroll delay={300}>
+                <RevealOnScroll delay={200}>
                   <AboutSkills />
                 </RevealOnScroll>
               </div>
-  
+    
+              {/* <div className="section">
+                <RevealOnScroll delay={300}>
+                  <Works />
+                </RevealOnScroll>
+              </div> */}
               <div className="section">
                 <RevealOnScroll delay={400}>
                   <Contact />

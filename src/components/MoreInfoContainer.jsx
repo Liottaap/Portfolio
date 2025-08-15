@@ -1,4 +1,4 @@
-import { ModalButton } from "./ModalButton"
+import { ModalButton } from "./buttons/ModalButton"
 
 function MoreInfoContainer({project}){
 

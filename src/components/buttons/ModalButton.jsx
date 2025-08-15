@@ -1,6 +1,6 @@
-import { ModalContent } from "./ModalContent";
+import { ModalContent } from "../ModalContent";
 import { useState } from "react";
-import { projectsArray } from "./projectsArray";
+import { projectsArray } from "../projectsArray";
 import { useEffect } from "react";
 function ModalButton() {
   const [isOpen, setIsOpen] = useState(false);

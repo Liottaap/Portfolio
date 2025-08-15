@@ -1,5 +1,4 @@
 
-import { Link } from 'react-scroll';
 import {ButtonsContainer} from '../components/MenuContainer';
 
 import '../globals.css'
@@ -7,7 +6,7 @@ import '../globals.css'
 function Header() {
 
     return(
-        <header id='header' className=" h-screen justify-evenly gap-10 -pt-20 
+        <header id='header' className=" h-screen justify-evenly gap-10 
             flex flex-col items-center  lg:gap-5  lg:pl-20 lg:pr-20 lg:justify-evenly">
             {/* Botones */}
             <ButtonsContainer/>

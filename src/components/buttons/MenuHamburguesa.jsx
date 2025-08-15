@@ -1,9 +1,9 @@
 import { useState } from "react";
-import MenuIcon from '../assets/menu-bar.png';
-import linkedin from "../assets/linkedin-icon-dark.svg";
-import github from "../assets/github-icon-dark.svg";
-import whitelinkedin from "../assets/linkedin-icon.svg";
-import whiteGithub from "../assets/github-icon.svg";
+import MenuIcon from '../../assets/menu-bar.png';
+import linkedin from "../../assets/linkedin-icon-dark.svg";
+import github from "../../assets/github-icon-dark.svg";
+import whitelinkedin from "../../assets/linkedin-icon.svg";
+import whiteGithub from "../../assets/github-icon.svg";
 function MenuHamburguesa({ isWhite }) {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => {
