@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.42424973.css",
-    "main.js": "/Portfolio/static/js/main.104fa8cf.js",
+    "main.css": "/Portfolio/static/css/main.486b95bc.css",
+    "main.js": "/Portfolio/static/js/main.775a84ce.js",
     "static/media/mockup.png": "/Portfolio/static/media/mockup.dd83ce1184c2e2d90f2b.png",
+    "static/media/LinkedinMockup.png": "/Portfolio/static/media/LinkedinMockup.f4d22ea2c0de8acc9855.png",
+    "static/media/Linkedin.png": "/Portfolio/static/media/Linkedin.3f32deee272f72e1415f.png",
+    "static/media/steam.png": "/Portfolio/static/media/steam.3eb3578a92c85cabd30f.png",
     "static/media/mascotitas.png": "/Portfolio/static/media/mascotitas.95c3405bdb96631c0f62.png",
     "static/media/patitas-mascotas.png": "/Portfolio/static/media/patitas-mascotas.b9be3003ff0b5bb6e744.png",
     "static/media/desktop.png": "/Portfolio/static/media/desktop.cc59183f80089ebc2ced.png",
@@ -10,6 +13,7 @@
     "static/media/mesas-reservadas.png": "/Portfolio/static/media/mesas-reservadas.08f6d2dd4acb3ad09707.png",
     "static/media/mesas.png": "/Portfolio/static/media/mesas.82cddc0070408401e5b0.png",
     "static/media/patitas-desktop.png": "/Portfolio/static/media/patitas-desktop.215b52ce224348995e00.png",
+    "static/media/mockup-steam.png": "/Portfolio/static/media/mockup-steam.9e21d51a3ac68e5e46f8.png",
     "static/media/nostalgicTasks.png": "/Portfolio/static/media/nostalgicTasks.207d2fe280902f825220.png",
     "static/media/oroVerde.png": "/Portfolio/static/media/oroVerde.1ea365f28af88e766cff.png",
     "static/media/patitas-banner.png": "/Portfolio/static/media/patitas-banner.b58f86041dfd69aeeffe.png",
@@ -19,6 +23,7 @@
     "static/media/patitas-tienda.png": "/Portfolio/static/media/patitas-tienda.fde7d927664e7acf0696.png",
     "static/media/banner.png": "/Portfolio/static/media/banner.ce3edf328cee41e08955.png",
     "static/media/patitas-contacto.png": "/Portfolio/static/media/patitas-contacto.3eff46c26f159bde6149.png",
+    "static/media/LinkedinBanner.png": "/Portfolio/static/media/LinkedinBanner.1c15c50c0141f1800ad6.png",
     "static/media/perfil.jpg": "/Portfolio/static/media/perfil.9c77ed672c896ba201e7.jpg",
     "static/media/patitas-requisitos.png": "/Portfolio/static/media/patitas-requisitos.900e5856f47bb6ffda4f.png",
     "static/media/bootstrap-icons.woff?": "/Portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
@@ -30,11 +35,11 @@
     "static/media/github-icon.svg": "/Portfolio/static/media/github-icon.b812010647d8922e0e6412fd3fc7f38c.svg",
     "static/media/github-icon-dark.svg": "/Portfolio/static/media/github-icon-dark.c82c63f6cf914d8b027583f115979be6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.42424973.css.map": "/Portfolio/static/css/main.42424973.css.map",
-    "main.104fa8cf.js.map": "/Portfolio/static/js/main.104fa8cf.js.map"
+    "main.486b95bc.css.map": "/Portfolio/static/css/main.486b95bc.css.map",
+    "main.775a84ce.js.map": "/Portfolio/static/js/main.775a84ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.42424973.css",
-    "static/js/main.104fa8cf.js"
+    "static/css/main.486b95bc.css",
+    "static/js/main.775a84ce.js"
   ]
 }
