@@ -1,7 +1,7 @@
 import DWprojects from './DWprojects'
 import'.././globals.css'
 
-import { projectsArray } from './projectsArray';
+import { projectsArray } from './projectsArray'
 
 
 function DWContainer() {

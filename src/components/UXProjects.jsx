@@ -1,21 +1,8 @@
-import React, { useState } from 'react'
-import { UXprojectsArray } from './projectsArray'
-import { Link } from 'react-router-dom'
-
-function UXProjects() {
-  return (
-    <div>
-      <section className="flex flex-wrap w-full justify-center">
-        {UXprojectsArray.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
-      </section>
-    </div>
-  )
-}
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function ProjectCard({ project }) {
-  const [hover, setHover] = useState(false)
+  const [hover, setHover] = useState(false);
 
   return (
     <Link
@@ -35,7 +22,7 @@ function ProjectCard({ project }) {
         </h2>
       )}
     </Link>
-  )
+  );
 }
 
-export { UXProjects }
+export default ProjectCard;

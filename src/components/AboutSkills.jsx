@@ -18,7 +18,10 @@ function AboutSkills(){
       <li className='text-2xl'>Tailwind, bootstrap</li>
       <li className='text-2xl'>Git, Github</li>
     </ul>
-    <Link to='DWPortfolio' className='mt-20 text-2xl border-2 border-white px-24 md:px-28 lg:px-32 py-2 hover:bg-white hover:text-black'>Portfolio</Link>
+    <div className='flex flex-col gap-3'>
+      <Link to='/DWPortfolio' className='mt-20 text-2xl border-2 border-white px-24 md:px-28 lg:px-32 py-2 hover:bg-white hover:text-black'>Portfolio</Link>
+      <a href="" className=' text-2xl border-2 border-white px-24 md:px-28 lg:px-32 py-2 hover:bg-white hover:text-black'>CV</a>
+    </div>
 
   </div>
 
@@ -31,10 +34,15 @@ function AboutSkills(){
     </h2>
     <ul className="mt-4 space-y-2 text-sm lg:text-base">
 
-      <li className='text-2xl'>UI/UX, Figma, Whimsical, Adobe XD</li>
-      <li className='text-2xl'>Photoshop, Illustrator, Canva</li>
+      <li className='text-2xl'>UX/UI, UX Research, UI Design System</li>
+      <li className='text-2xl'>Photoshop, Illustrator, Canva, Figma</li>
+
     </ul>
-    <Link to='/UXPortfolio' className='mt-20 text-2xl border-2 border-blackbg px-24 md:px-28 lg:px-32 py-2 hover:bg-blackbg hover:text-white'>Portfolio</Link>
+    <div className='flex flex-col gap-3'>
+      <Link to='/UXPortfolio' className='mt-20 text-2xl border-2 border-blackbg px-24 md:px-28 lg:px-32 py-2 hover:bg-blackbg hover:text-white'>Portfolio</Link>
+      <a href="" className=' text-2xl border-2 border-blackbg px-24 md:px-28 lg:px-32 py-2 hover:bg-blackbg hover:text-white'>CV</a>
+    </div>
+
   </div>
 </div>
     )

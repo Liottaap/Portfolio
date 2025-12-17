@@ -11,7 +11,7 @@ function ButtonsContainer({isWhite}){
         `Liotta Ana || Desarrollo Web || Diseño UX/UI `, 150);
     return(
 
-        <div className='w-full w-[100%] h-32 p-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500  flex items-center justify-evenly
+        <div className='w-full w-[100%] h-32 p-2 ml-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500  flex items-center justify-evenly
        flex-row md:justify-evenly'>
             {/* <MenuHamburguesa isWhite={true}/> */}
             <HomeButton className='w-[10%]'/>
