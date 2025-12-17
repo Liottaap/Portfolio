@@ -40,7 +40,10 @@ function AboutSkills(){
     </ul>
     <div className='flex flex-col gap-3'>
       <Link to='/UXPortfolio' className='mt-20 text-2xl border-2 border-blackbg px-24 md:px-28 lg:px-32 py-2 hover:bg-blackbg hover:text-white'>Portfolio</Link>
-      <a href="" className=' text-2xl border-2 border-blackbg px-24 md:px-28 lg:px-32 py-2 hover:bg-blackbg hover:text-white'>CV</a>
+        <a  href="https://drive.google.com/file/d/1WQDRftv1uDftDcuMx7tUXBiqlvyyEZdy/view?usp=sharing" 
+            className=' text-2xl border-2 border-blackbg px-24 md:px-28 lg:px-32 py-2 hover:bg-blackbg hover:text-white'   
+            target="_blank"
+            rel="noopener noreferrer">CV</a>
     </div>
 
   </div>
