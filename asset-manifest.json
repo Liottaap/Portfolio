@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.486b95bc.css",
-    "main.js": "/Portfolio/static/js/main.775a84ce.js",
+    "main.css": "/Portfolio/static/css/main.3fa8dc06.css",
+    "main.js": "/Portfolio/static/js/main.f042cff3.js",
     "static/media/mockup.png": "/Portfolio/static/media/mockup.dd83ce1184c2e2d90f2b.png",
     "static/media/LinkedinMockup.png": "/Portfolio/static/media/LinkedinMockup.f4d22ea2c0de8acc9855.png",
     "static/media/Linkedin.png": "/Portfolio/static/media/Linkedin.3f32deee272f72e1415f.png",
@@ -24,7 +24,7 @@
     "static/media/banner.png": "/Portfolio/static/media/banner.ce3edf328cee41e08955.png",
     "static/media/patitas-contacto.png": "/Portfolio/static/media/patitas-contacto.3eff46c26f159bde6149.png",
     "static/media/LinkedinBanner.png": "/Portfolio/static/media/LinkedinBanner.1c15c50c0141f1800ad6.png",
-    "static/media/perfil.jpg": "/Portfolio/static/media/perfil.9c77ed672c896ba201e7.jpg",
+    "static/media/perfil3.jpg": "/Portfolio/static/media/perfil3.7487bbc013725857fa20.jpg",
     "static/media/patitas-requisitos.png": "/Portfolio/static/media/patitas-requisitos.900e5856f47bb6ffda4f.png",
     "static/media/bootstrap-icons.woff?": "/Portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/patitas-donaciones.png": "/Portfolio/static/media/patitas-donaciones.e02693a69492117ffe21.png",
@@ -35,11 +35,11 @@
     "static/media/github-icon.svg": "/Portfolio/static/media/github-icon.b812010647d8922e0e6412fd3fc7f38c.svg",
     "static/media/github-icon-dark.svg": "/Portfolio/static/media/github-icon-dark.c82c63f6cf914d8b027583f115979be6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.486b95bc.css.map": "/Portfolio/static/css/main.486b95bc.css.map",
-    "main.775a84ce.js.map": "/Portfolio/static/js/main.775a84ce.js.map"
+    "main.3fa8dc06.css.map": "/Portfolio/static/css/main.3fa8dc06.css.map",
+    "main.f042cff3.js.map": "/Portfolio/static/js/main.f042cff3.js.map"
   },
   "entrypoints": [
-    "static/css/main.486b95bc.css",
-    "static/js/main.775a84ce.js"
+    "static/css/main.3fa8dc06.css",
+    "static/js/main.f042cff3.js"
   ]
 }
