@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3fa8dc06.css",
-    "main.js": "/Portfolio/static/js/main.f042cff3.js",
+    "main.css": "/Portfolio/static/css/main.162b9981.css",
+    "main.js": "/Portfolio/static/js/main.69a1f75b.js",
+    "static/media/Steam.svg": "/Portfolio/static/media/Steam.7e1a94f80347f96bd294ef7a2fe89da0.svg",
+    "static/media/Linkedin.svg": "/Portfolio/static/media/Linkedin.33b9af4c355b01b7714c4a72b3088bde.svg",
     "static/media/mockup.png": "/Portfolio/static/media/mockup.dd83ce1184c2e2d90f2b.png",
     "static/media/LinkedinMockup.png": "/Portfolio/static/media/LinkedinMockup.f4d22ea2c0de8acc9855.png",
-    "static/media/Linkedin.png": "/Portfolio/static/media/Linkedin.3f32deee272f72e1415f.png",
-    "static/media/steam.png": "/Portfolio/static/media/steam.3eb3578a92c85cabd30f.png",
     "static/media/mascotitas.png": "/Portfolio/static/media/mascotitas.95c3405bdb96631c0f62.png",
     "static/media/patitas-mascotas.png": "/Portfolio/static/media/patitas-mascotas.b9be3003ff0b5bb6e744.png",
     "static/media/desktop.png": "/Portfolio/static/media/desktop.cc59183f80089ebc2ced.png",
@@ -35,11 +35,11 @@
     "static/media/github-icon.svg": "/Portfolio/static/media/github-icon.b812010647d8922e0e6412fd3fc7f38c.svg",
     "static/media/github-icon-dark.svg": "/Portfolio/static/media/github-icon-dark.c82c63f6cf914d8b027583f115979be6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.3fa8dc06.css.map": "/Portfolio/static/css/main.3fa8dc06.css.map",
-    "main.f042cff3.js.map": "/Portfolio/static/js/main.f042cff3.js.map"
+    "main.162b9981.css.map": "/Portfolio/static/css/main.162b9981.css.map",
+    "main.69a1f75b.js.map": "/Portfolio/static/js/main.69a1f75b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fa8dc06.css",
-    "static/js/main.f042cff3.js"
+    "static/css/main.162b9981.css",
+    "static/js/main.69a1f75b.js"
   ]
 }
