@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.162b9981.css",
-    "main.js": "/Portfolio/static/js/main.69a1f75b.js",
-    "static/media/Steam.svg": "/Portfolio/static/media/Steam.7e1a94f80347f96bd294ef7a2fe89da0.svg",
-    "static/media/Linkedin.svg": "/Portfolio/static/media/Linkedin.33b9af4c355b01b7714c4a72b3088bde.svg",
+    "main.js": "/Portfolio/static/js/main.8521d886.js",
     "static/media/mockup.png": "/Portfolio/static/media/mockup.dd83ce1184c2e2d90f2b.png",
-    "static/media/LinkedinMockup.png": "/Portfolio/static/media/LinkedinMockup.f4d22ea2c0de8acc9855.png",
+    "static/media/Linkedin.jpg": "/Portfolio/static/media/Linkedin.00a1d53113dbbdadde5a.jpg",
     "static/media/mascotitas.png": "/Portfolio/static/media/mascotitas.95c3405bdb96631c0f62.png",
     "static/media/patitas-mascotas.png": "/Portfolio/static/media/patitas-mascotas.b9be3003ff0b5bb6e744.png",
+    "static/media/Steam.jpg": "/Portfolio/static/media/Steam.932bd9400eacffb119ca.jpg",
     "static/media/desktop.png": "/Portfolio/static/media/desktop.cc59183f80089ebc2ced.png",
     "static/media/bebidas.png": "/Portfolio/static/media/bebidas.98cd45fad4d76afe83a0.png",
     "static/media/mesas-reservadas.png": "/Portfolio/static/media/mesas-reservadas.08f6d2dd4acb3ad09707.png",
     "static/media/mesas.png": "/Portfolio/static/media/mesas.82cddc0070408401e5b0.png",
+    "static/media/LinkedinMockup.png": "/Portfolio/static/media/LinkedinMockup.3bb7ec21ebfb9df97276.png",
     "static/media/patitas-desktop.png": "/Portfolio/static/media/patitas-desktop.215b52ce224348995e00.png",
+    "static/media/OroVerde.jpg": "/Portfolio/static/media/OroVerde.4b1fa1926e84c254829f.jpg",
     "static/media/mockup-steam.png": "/Portfolio/static/media/mockup-steam.9e21d51a3ac68e5e46f8.png",
     "static/media/nostalgicTasks.png": "/Portfolio/static/media/nostalgicTasks.207d2fe280902f825220.png",
     "static/media/oroVerde.png": "/Portfolio/static/media/oroVerde.1ea365f28af88e766cff.png",
@@ -26,6 +27,7 @@
     "static/media/LinkedinBanner.png": "/Portfolio/static/media/LinkedinBanner.1c15c50c0141f1800ad6.png",
     "static/media/perfil3.jpg": "/Portfolio/static/media/perfil3.7487bbc013725857fa20.jpg",
     "static/media/patitas-requisitos.png": "/Portfolio/static/media/patitas-requisitos.900e5856f47bb6ffda4f.png",
+    "static/media/oroverde-mockup.png": "/Portfolio/static/media/oroverde-mockup.e57f6e5e30d5f5c904a5.png",
     "static/media/bootstrap-icons.woff?": "/Portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/patitas-donaciones.png": "/Portfolio/static/media/patitas-donaciones.e02693a69492117ffe21.png",
     "static/media/bootstrap-icons.woff2?": "/Portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
@@ -36,10 +38,10 @@
     "static/media/github-icon-dark.svg": "/Portfolio/static/media/github-icon-dark.c82c63f6cf914d8b027583f115979be6.svg",
     "index.html": "/Portfolio/index.html",
     "main.162b9981.css.map": "/Portfolio/static/css/main.162b9981.css.map",
-    "main.69a1f75b.js.map": "/Portfolio/static/js/main.69a1f75b.js.map"
+    "main.8521d886.js.map": "/Portfolio/static/js/main.8521d886.js.map"
   },
   "entrypoints": [
     "static/css/main.162b9981.css",
-    "static/js/main.69a1f75b.js"
+    "static/js/main.8521d886.js"
   ]
 }
