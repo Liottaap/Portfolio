@@ -52,12 +52,15 @@ function ProjectDetail() {
 
       {/* 🔹 IMAGEN PRINCIPAL DEL PROYECTO */}
       {project.img && project.img[0] && (
-        <section className="flex justify-center my-20">
+        <section className="relative flex justify-center my-20">
           <img
             src={project.img[0]}
+            draggable={false}
+            onContextMenu={(e) => e.preventDefault()}
             alt={`${project.name} presentación`}
-            className="max-w-[90%] object-contain rounded-xl shadow-lg"
+            className="select-none max-w-[90%] object-contain rounded-xl shadow-lg"
           />
+          <div className='absolute inset-0'></div>
         </section>
       )}
 

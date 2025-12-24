@@ -23,7 +23,7 @@ function UXContainer({ filter }) {
           <div className="h-[320px] flex items-center justify-center bg-black/10">
             <img
               src={project.mockup}
-              alt={project.name}
+              alt= {project.name}
               className="max-h-full max-w-full object-contain p-4"
             />
           </div>

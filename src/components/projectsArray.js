@@ -23,12 +23,16 @@ import poolBeer2 from '../assets/projectsUX/pool&Beer/bebidas.png'
 import poolBeer3 from '../assets/projectsUX/pool&Beer/mesas.png'
 import poolBeer4 from '../assets/projectsUX/pool&Beer/mesas-reservadas.png'
 
-import steam from '../assets/projectsUX/Steam/steam.png' 
+import steam from '../assets/projectsUX/Steam/Steam.svg' 
 import mockupSteam from '../assets/projectsUX/Steam/mockup-steam.png'
 
-import Linkedin from '../assets/projectsUX/Linkedin/Linkedin.png'
+import Linkedin from '../assets/projectsUX/Linkedin/Linkedin.svg'
 import linkedinMockup from '../assets/projectsUX/Linkedin/LinkedinMockup.png'
 import linkedinBanner from '../assets/projectsUX/Linkedin/LinkedinBanner.png'
+
+import OroVerde from '../assets/projectsUX/OroVerde/OroVerde.svg'
+import mockupOroVerde from '../assets/projectsUX/OroVerde/oroverde-mockup.png'
+
 const projectsArray = [
     { 
         id: '1', 
@@ -128,7 +132,7 @@ const UXUIprojectsArray = [
     { 
       id: '3', 
       type: "UX/UI",
-      name: "Steam", 
+      name: "Rediseño Steam", 
       mockup: mockupSteam,
       banner: mockupSteam,
       img: [steam],
@@ -138,12 +142,22 @@ const UXUIprojectsArray = [
     { 
         id: '4', 
         type: "UX",
-        name: "Linkedin", 
+        name: "Rediseño Linkedin", 
         mockup: linkedinMockup,
         banner: linkedinBanner,
         img: [Linkedin],
         hipotesis: 'Rediseñar la interfaz de Steam para mejorar la accesibilidad...',
         resumen: 'Un proyecto enfocado en mejorar la experiencia del usuario en Steam...',
+      },
+      { 
+        id: '5', 
+        type: "UX",
+        name: "Oro Verde", 
+        mockup: mockupOroVerde,
+        banner: mockupOroVerde,
+        img: [OroVerde],
+        hipotesis: '',
+        resumen: '',
       },
   ];
 
