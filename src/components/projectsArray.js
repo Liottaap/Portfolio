@@ -23,14 +23,14 @@ import poolBeer2 from '../assets/projectsUX/pool&Beer/bebidas.png'
 import poolBeer3 from '../assets/projectsUX/pool&Beer/mesas.png'
 import poolBeer4 from '../assets/projectsUX/pool&Beer/mesas-reservadas.png'
 
-import steam from '../assets/projectsUX/Steam/Steam.svg' 
+import steam from '../assets/projectsUX/Steam/Steam.jpg' 
 import mockupSteam from '../assets/projectsUX/Steam/mockup-steam.png'
 
-import Linkedin from '../assets/projectsUX/Linkedin/Linkedin.svg'
+import Linkedin from '../assets/projectsUX/Linkedin/Linkedin.jpg'
 import linkedinMockup from '../assets/projectsUX/Linkedin/LinkedinMockup.png'
 import linkedinBanner from '../assets/projectsUX/Linkedin/LinkedinBanner.png'
 
-import OroVerde from '../assets/projectsUX/OroVerde/OroVerde.svg'
+import OroVerde from '../assets/projectsUX/OroVerde/OroVerde.jpg'
 import mockupOroVerde from '../assets/projectsUX/OroVerde/oroverde-mockup.png'
 
 const projectsArray = [
