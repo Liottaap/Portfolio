@@ -1,10 +1,17 @@
+import { AboutHello } from '../components/AboutHello'
+import'.././globals.css'
+
 
 function About(){
+/*     const animatedTitle = useAnimatedTitle('ABOUT', 150) */
     return(
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facere unde eligendi eius ipsam amet ullam, velit aliquid pariatur deserunt qui sunt dolorem natus laborum saepe ipsum ut, tempore eos.</p>
-        </div>
+        <section id='about' className='flex items-center justify-center'>
+            {/* Saludo */}
+
+            <AboutHello/>
+            {/* Skills */}
+        </section>
     )
 }
 
-export default About
+export {About}

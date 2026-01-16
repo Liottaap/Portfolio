@@ -1,0 +1,113 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+img{
+  height: 100% !important
+}
+
+
+p, a, li, ul, input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+
+}
+p{
+  font-size: 1.25rem;
+}
+
+h1, h2, h3{
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+}
+
+
+h2{
+  padding: 12px;
+  font-size: 3.75rem;
+}
+.section{
+  height: 100%;
+}
+
+.header-text{
+  font-family: "Boldonse", system-ui;
+  font-size: 5.6rem;
+}
+/* .snap-container {
+  height: 100vh;
+  overflow: auto;  
+  scroll-snap-type: y mandatory;  
+
+}
+
+.snap-section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+} */
+/* .animate-glow {
+  background: linear-gradient(90deg, #3b82f6, #9333ea, #ec4899);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: letterShine 5s ease-in-out infinite;
+  } */
+
+@keyframes fade-in {
+  from {
+      opacity: 0;
+      transform: scale(0.8);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+@keyframes fade-out {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+
+/* Logo animacion */
+
+.animate-logo {
+  background: linear-gradient(90deg, #3b82f6, #9333ea, #ec4899);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: letterShine 5s ease-in-out infinite;
+}
+
+
+.clip-left {
+  clip-path: polygon(0 0, 0 100%, 100% 40%);
+}
+.clip-right {
+  clip-path: polygon(100% 100%, 100% 0, 0 60%);
+}
+
+.section{
+  width: 100%;
+}
+.modal-open .carousel-control-prev,
+.modal-open .carousel-control-next,
+.modal-open .carousel-indicators {
+  display: none !important;
+}
+

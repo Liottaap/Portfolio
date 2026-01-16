@@ -1,19 +1,25 @@
-import { BrowserRouter , Routes , Route } from "react-router-dom";
-import Layout from "./components/layout/Layout";
-import { Works } from "./pages/Works";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import MainPage from "./pages/MainPage";
+import { DWPortfolio } from "./pages/DWPortfolio";
+import { UXPortfolio } from "./pages/UXPortfolio";
+import UXProjectsItem from './pages/UXProjectsItem'
 function App() {
   return (
-
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       <Routes>
-        <Route path="/" element={<Layout/>}>
-          <Route path="/works" element={<Works/>}/>
-        </Route>
+        <Route index element={<MainPage />} />
+        <Route path="/DWPortfolio" element={<DWPortfolio />} />
+
+        {/* UX/UI */}
+        <Route path="/UXPortfolio" element={<UXPortfolio />} />
+        <Route path="/UXPortfolio/:id" element={<UXProjectsItem />} />
+
+
       </Routes>
-    </BrowserRouter>  
-    );
+    </BrowserRouter>
+  );
 }
 
 export default App;
